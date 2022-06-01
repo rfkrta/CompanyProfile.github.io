@@ -1,0 +1,387 @@
+:root {
+    --darkgrey: #0B1D26;
+    --yellow: #FBD784;
+    --white: #FFFFFF;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    color: var(--white);
+}
+
+body {
+    background-color: var(--darkgrey);
+}
+
+.navbar-brand img {
+    width: 200px;
+}
+
+.navbar li a,
+.btn-outline-light {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.btn-outline-light {
+    width: 200px;
+    border-radius: 50px;
+    border: 2px solid;
+}
+
+header,
+header img {
+    margin: 91px 0;
+}
+
+header h1 {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 80px;
+}
+
+header img {
+    width: 100%;
+}
+
+h4 {
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: var(--yellow);
+    margin: 0;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 96px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 42px;
+    text-align: justify;
+    color: rgb(221, 221, 221);
+}
+
+.tentang p {
+    width: 90%;
+}
+
+.tentang img {
+    max-width: 90%;
+    margin-top: -50px;
+}
+
+hr {
+    color: var(--yellow);
+    width: 70px;
+    height: 3px !important;
+}
+
+.visi-misi {
+    margin: 150px 0;
+}
+
+.icon{
+    text-align:center;
+    margin:0 auto;
+}
+
+.visi-misi img {
+    width: 90%;
+}
+
+.visi-misi .visi-misi-content {
+    max-width: 90%;
+}
+
+.card {
+    width: 40rem;
+    background-color: transparent;
+}
+
+.card p {
+    text-align: center;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: transparent;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* .mengenal img {
+      width: 50%;
+  } */
+
+.mengenal .swiper {
+    width: 90%;
+}
+
+.mengenal .swiper-slide img {
+    display: block;
+    width: 80%;
+    object-fit: cover;
+}
+
+/* 
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+  li:not(:first-child) {
+    margin-top: 0.8em;
+  }
+  ul li a {
+    color: #a7a7a7;
+    text-decoration: none;
+  }
+  ul li a:hover {
+    color: #2a8ded;
+  } */
+
+.footer-content p {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 15px;
+    text-align: justify;
+    color: rgb(221, 221, 221);
+}
+
+.footer-content h4 {
+    font-size: 24px;
+    line-height: 23px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: var(--yellow);
+    margin: 0;
+}
+
+.footer-content1 h4 {
+    font-size: 24px;
+    line-height: 23px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: white;
+    margin: 0;
+}
+
+.footer-bottom hr {
+    color: white;
+    width: 100%;
+    height: 3px !important;
+}
+
+.footer-bottom p {
+    text-align: center;
+    font-style: italic;
+}
+
+.centered {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    position: relative;
+    font-size: 35px;
+    width: 389px;
+    height: 53px;
+    left: 150px;
+    top: 200px;
+}
+
+.mari-gabung {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    position: relative;
+    font-size: 35px;
+    width: 389px;
+    height: 53px;
+    left: 180px;
+    top: 200px;
+}
+
+
+.mari-colab {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    width: 389px;
+    height: 53px;
+    left: 130px;
+    top: 200px;
+}
+
+.mari-gabung-desc {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    width: 389px;
+    height: 53px;
+    left: 130px;
+    top: 200px;
+}
+
+.btn-outline-light1 {
+    width: 30%;
+    border-radius: 50px;
+    border: 1px solid;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    border-color: white;
+    color: white;
+    left: 220px;
+    top: 440px;
+    position: relative;
+}
+
+.btn-outline-light2 {
+    width: 45%;
+    border-radius: 50px;
+    border: 1px solid;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    border-color: white;
+    color: white;
+    left: 189px;
+    top: 440px;
+    position: relative;
+}
+
+/* Mobile Responsive */
+@media only screen and (max-width: 600px) {
+
+    .navbar>.container,
+    .navbar>.container-fluid,
+    .navbar>.container-lg,
+    .navbar>.container-md,
+    .navbar>.container-sm,
+    .navbar>.container-xl,
+    .navbar>.container-xxl {
+        display: inline;
+    }
+
+    .navbar-brand img {
+        width: 100px;
+    }
+
+    .navbar li a,
+    .btn-outline-light {
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .btn-outline-light {
+        margin-top: 20px;
+        width: 100%;
+        border-radius: 50px;
+        border: 1px solid;
+    }
+
+    header,
+    header img {
+        margin: 80px 0;
+    }
+
+    header h1 {
+        font-weight: 600;
+        font-size: 42px;
+        line-height: 50px;
+        margin: 20px;
+    }
+
+    header img {
+        width: 100%;
+    }
+
+    h4 {
+        font-size: 15px;
+        line-height: 23px;
+        letter-spacing: 6px;
+        text-transform: uppercase;
+        color: var(--yellow);
+        margin: 0;
+    }
+
+    h2 {
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 96px;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 42px;
+        text-align: justify;
+        color: rgb(221, 221, 221);
+    }
+
+    .tentang p {
+        width: 100%;
+    }
+
+    .tentang img {
+        max-width: 100%;
+        margin-top: 20px;
+    }
+
+    hr {
+        color: var(--yellow);
+        width: 70px;
+        height: 3px !important;
+    }
+
+    .visi-misi {
+        margin: 50px 0;
+    }
+
+    .visi-misi img {
+        display: none;
+    }
+
+    .visi-misi .visi-misi-content {
+        max-width: 100%;
+    }
+
+}
